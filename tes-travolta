@@ -1,7 +1,9 @@
-jam = 40
-gaji = 15000
+jam = 42
+byrn = 15000
 
 if jam <= 40:
-  print(gaji * jam)
+  gaji = (byrn * jam)
 else:
-  print((40 * gaji) + ((jam-40) * 1.5 * gaji)
+  gaji = (40 * byrn) + ((jam-40) * 1.5 * byrn)
+
+print(gaji)
